@@ -1,0 +1,36 @@
+Source: python-pytest-cov
+Section: python
+Priority: optional
+Maintainer: Federico Ceratto <federico@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep:
+ dh-python,
+ python3-all,
+ python3-coverage,
+ python3-setuptools,
+Standards-Version: 4.5.1
+Homepage: https://github.com/schlamar/pytest-cov
+Vcs-Git: https://salsa.debian.org/debian/python-pytest-cov.git
+Vcs-Browser: https://salsa.debian.org/debian/python-pytest-cov
+Testsuite: autopkgtest-pkg-python
+Rules-Requires-Root: no
+
+Package: python3-pytest-cov
+Architecture: all
+Depends: ${misc:Depends},
+ ${python3:Depends},
+ libjs-jquery,
+ libjs-jquery-hotkeys,
+ libjs-jquery-isonscreen,
+ libjs-jquery-tablesorter,
+ libjs-jquery-throttle-debounce,
+ python3-cov-core (>= 1.12-1),
+ python3-pytest (>= 3.6)
+Provides: ${python3:Provides}
+Recommends: ${python3:Recommends}
+Description: py.test plugin to produce coverage reports for Python3
+ This py.test plugin produces coverage reports. It supports both centralised
+ and distributed testing across multiple hosts. It can run parallel tests on
+ different platforms, architectures, and Python versions.
+ It supports coverage of subprocesses and can produce reports in text, HTML,
+ XML and annotated source code.

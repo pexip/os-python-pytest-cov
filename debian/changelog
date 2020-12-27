@@ -1,0 +1,87 @@
+python-pytest-cov (2.10.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Federico Ceratto <federico@debian.org>  Sun, 27 Dec 2020 18:56:58 +0000
+
+python-pytest-cov (2.8.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop Python 2 package (Closes: #938102)
+
+ -- Federico Ceratto <federico@debian.org>  Sun, 10 Nov 2019 21:29:16 +0000
+
+python-pytest-cov (2.7.1-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #934161)
+
+ -- Federico Ceratto <federico@debian.org>  Thu, 08 Aug 2019 12:17:59 +0100
+
+python-pytest-cov (2.6.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Federico Ceratto <federico@debian.org>  Sun, 09 Sep 2018 10:08:36 +0100
+
+python-pytest-cov (2.5.1-2) UNRELEASED; urgency=medium
+
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * d/copyright: Use https protocol in Format field
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 09:36:48 +0200
+
+python-pytest-cov (2.5.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Federico Ceratto <federico@debian.org>  Sun, 02 Jul 2017 15:07:46 +0100
+
+python-pytest-cov (2.4.0-2) unstable; urgency=medium
+
+  * Add runtime dependencies to jQuery libs (Closes: #841520, #841630)
+
+ -- Federico Ceratto <federico@debian.org>  Wed, 26 Oct 2016 12:18:19 +0100
+
+python-pytest-cov (2.4.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Federico Ceratto <federico@debian.org>  Sun, 16 Oct 2016 23:41:57 +0100
+
+python-pytest-cov (2.2.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Federico Ceratto <federico@debian.org>  Sun, 14 Feb 2016 13:05:51 +0000
+
+python-pytest-cov (2.2.0-1) unstable; urgency=low
+
+  * New upstream release (Closes: #802836)
+  * Bump up Standards-Version
+
+ -- Federico Ceratto <federico@debian.org>  Mon, 26 Oct 2015 23:47:07 +0000
+
+python-pytest-cov (1.8.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Mon, 01 Sep 2014 17:25:05 +0100
+
+python-pytest-cov (1.7.0-2) unstable; urgency=low
+
+  * Add versioned dependencies
+
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Thu, 26 Jun 2014 22:34:56 +0100
+
+python-pytest-cov (1.7.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Sun, 22 Jun 2014 10:21:05 +0100
+
+python-pytest-cov (1.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #750917)
+
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Sun, 08 Jun 2014 12:07:00 +0100
