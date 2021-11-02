@@ -1,3 +1,9 @@
+python-pytest-cov (2.10.1-1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Huw Jones <huw@pexip.com>  Tue, 02 Nov 2021 15:04:49 +0000
+
 python-pytest-cov (2.10.1-1) unstable; urgency=medium
 
   * New upstream release
